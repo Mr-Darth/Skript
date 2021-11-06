@@ -32,7 +32,7 @@ import ch.njol.skript.expressions.base.SimplePropertyExpression;
 
 @Name("UUID")
 @Description({"The UUID of a player, entity or world.",
-		"There is also an option, in config, to use a player's UUID instead of the name in variable names (i.e. when %player% is used).",})
+		"There is also an option, in config, to use a player's UUID instead of the name in variable names (i.e. when %player% is used)."})
 @Examples({"# prevents people from joining the server if they use the name of a player",
 		"# who has played on this server at least once since this script has been added",
 		"on login:",
